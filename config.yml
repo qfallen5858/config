@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: config
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.11.78:8762/eureka/, http://192.168.11.78:8761/eureka/
+env:
+  dev12
